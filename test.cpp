@@ -1,4 +1,5 @@
-// subarray with given sum
+// Penalty Shoot-Out II
+//https://www.codechef.com/LRNDSA02/problems/PSHOT
 //Author: Shadab Eqbal
 
 #include <iostream>
@@ -9,22 +10,46 @@
 #include <iterator>
 #include <climits>
 #include <math.h>
-
-
 using namespace std;
+
+// int main()
+// {
+//     int t,n;
+//     string s;
+//     cin>>t;
+//     for(int i=0;i<t;i++){
+//         int score_a=0,score_b=0,flag=0;
+//         cin>>n;
+//         cin>>s;
+//         vector<char> vec(s.begin(),s.end());
+//         int size = vec.size();
+//         for(int j=0;j<size;j++){
+            
+//             if(j%2 == 0 && vec[j] == '1'){
+//                 score_a++;
+//             }else if(j%2 == 1 && vec[j] == '1'){
+//                 score_b++;
+//             }
+
+//             if(score_a > (size-j)/2){
+//                 flag = j;
+//                 break;
+//             }
+//             if(score_b > (size-j)/2){
+//                 flag = j;
+//                 break;
+//             }
+            
+
+//         }
+    
+//         cout<<flag+1<<"\n";
+
+//     }
+// }
 
 int main()
 {
-    vector<pair<int,int>> vec(2);
-
-    vec[0].first = 10;
-    vec[0].second = 12;
-
-    vec[1].first = 2;
-    vec[1].second = 4;
-
-    cout<<vec[0].first<<" "<<vec[0].second;
-    cout<<vec[1].first<<" "<<vec[1].second;
-
-	
+    int n=0,k=0,x=1;
+    cin>>n;
 }
