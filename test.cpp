@@ -1,55 +1,40 @@
-// Penalty Shoot-Out II
-//https://www.codechef.com/LRNDSA02/problems/PSHOT
 //Author: Shadab Eqbal
 
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <limits>
-#include <unordered_map>
+#include <map>
+#include <stack>
+#include <queue>
 #include <iterator>
 #include <climits>
 #include <math.h>
+#include <stdio.h>
+#include <string>
+#include <bits/stdc++.h>
+
+#define MAX 1e18
+#define MIN -1e18
+#define MOD 1000000007
+#define PB push_back
+#define MP make_pair
+#define vi vector<int>
+#define vii vector<vector<int>>
+#define pi pair<int, int>
+#define vpi vector<pi>
+#define ll long long int
 using namespace std;
 
-// int main()
-// {
-//     int t,n;
-//     string s;
-//     cin>>t;
-//     for(int i=0;i<t;i++){
-//         int score_a=0,score_b=0,flag=0;
-//         cin>>n;
-//         cin>>s;
-//         vector<char> vec(s.begin(),s.end());
-//         int size = vec.size();
-//         for(int j=0;j<size;j++){
-            
-//             if(j%2 == 0 && vec[j] == '1'){
-//                 score_a++;
-//             }else if(j%2 == 1 && vec[j] == '1'){
-//                 score_b++;
-//             }
-
-//             if(score_a > (size-j)/2){
-//                 flag = j;
-//                 break;
-//             }
-//             if(score_b > (size-j)/2){
-//                 flag = j;
-//                 break;
-//             }
-            
-
-//         }
+int foo(){
     
-//         cout<<flag+1<<"\n";
-
-//     }
-// }
-
+}
 int main()
 {
-    int n=0,k=0,x=1;
+    int n;
     cin>>n;
+    ll x,s1=0,s2=0;
+    for(int i=0;i<n;i++){
+        cin>>x;
+        foo(s1,s2,x);
+    }
 }
